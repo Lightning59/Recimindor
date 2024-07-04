@@ -12,3 +12,7 @@ class Recipe(models.Model):
     prep_time_human = models.IntegerField(default=0)  # Prep minutes no deadtime.
     cook_time_span = models.IntegerField(default=0)  # time to cook including deadtime in the oven.
     cook_time_human = models.IntegerField(default=0)  # time spent cooking directly
+    never_made = models.BooleanField(default=False) # used to store future recipes.
+
+    def __str__(self):
+        return self.name

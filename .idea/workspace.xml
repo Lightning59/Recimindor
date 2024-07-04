@@ -4,34 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00747846-a7bd-4184-9dcb-fe9c3184a257" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Recimindor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recimindor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recimindor/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recimindor/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recimindor/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recimindor/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+    <list default="true" id="00747846-a7bd-4184-9dcb-fe9c3184a257" name="Changes" comment="Added rcipe models to admin">
+      <change afterPath="$PROJECT_DIR$/recipe/migrations/0002_recipe_never_made.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/templates/recipe/recipes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Recimindor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recimindor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +27,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lightning59&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lightning59/Recimindor&quot;,
+    &quot;accountId&quot;: &quot;7ed93a41-b6f1-4017-8ded-1447d34b3b92&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -62,21 +57,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/devops/Recimindor/recipe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\devops\Recimindor\recipe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\evanm\Recimindor\recipe\templates\recipe" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,6 +90,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (.venv) (2)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -123,20 +125,39 @@
       <updated>1719094615285</updated>
       <workItem from="1719094632473" duration="4920000" />
       <workItem from="1719177367743" duration="643000" />
+      <workItem from="1719183089286" duration="281000" />
+      <workItem from="1719183381348" duration="78000" />
+      <workItem from="1719183468623" duration="595000" />
+      <workItem from="1719184072703" duration="6905000" />
+      <workItem from="1719197186934" duration="87000" />
+      <workItem from="1719785082195" duration="1817000" />
+      <workItem from="1720130423071" duration="2525000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup Postgres Database.">
+      <option name="closed" value="true" />
+      <created>1719186102416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719186102416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added rcipe models to admin">
+      <option name="closed" value="true" />
+      <created>1719197226679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719197226679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/recipe/urls.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup Postgres Database." />
+    <MESSAGE value="Added rcipe models to admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rcipe models to admin" />
   </component>
 </project>
