@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00747846-a7bd-4184-9dcb-fe9c3184a257" name="Changes" comment="Added rcipe models to admin">
-      <change afterPath="$PROJECT_DIR$/recipe/migrations/0002_recipe_never_made.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe/templates/recipe/recipes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Recimindor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recimindor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="00747846-a7bd-4184-9dcb-fe9c3184a257" name="Changes" comment="First Templates around recipe Working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/templates/recipe/recipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/templates/recipe/recipes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +125,7 @@
       <workItem from="1719184072703" duration="6905000" />
       <workItem from="1719197186934" duration="87000" />
       <workItem from="1719785082195" duration="1817000" />
-      <workItem from="1720130423071" duration="2525000" />
+      <workItem from="1720130423071" duration="3527000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Postgres Database.">
       <option name="closed" value="true" />
@@ -149,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719197226679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Templates around recipe Working">
+      <option name="closed" value="true" />
+      <created>1720133020609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720133020609</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Templates around recipe Working">
+      <option name="closed" value="true" />
+      <created>1720133035978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720133035978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Postgres Database." />
     <MESSAGE value="Added rcipe models to admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rcipe models to admin" />
+    <MESSAGE value="First Templates around recipe Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Templates around recipe Working" />
   </component>
 </project>
